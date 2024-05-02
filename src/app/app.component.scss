@@ -1,0 +1,70 @@
+*{
+    font-family: Comic Sans MS;
+}
+div{
+    border-radius: 25px;
+    margin: auto;
+    height: auto;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.name{
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.description{
+    padding: 10px 10px 10px 10px ;
+    background-color: aqua;
+}
+.author{
+    background-color: aquamarine;
+}
+.current-rating{
+    text-align: center;
+    background-color: azure;
+}
+.container{
+    border-radius: 0;
+    height: 700px;
+    width: 700px;
+    background-color: blanchedalmond;
+}
+.rate-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: burlywood;
+}
+.star-rating{
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+    margin-left: 10px;
+}
+.star-rating:hover{
+    background-color: red;
+}
+.description p{
+    text-align: justify;
+    margin: 20px;
+}
+.post-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
