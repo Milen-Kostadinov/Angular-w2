@@ -1,0 +1,40 @@
+<h1>My first about me page</h1>
+<ul>
+  <div (click)="showInformation(0)" class="wrapper">
+    <li>Информация за мен</li>
+      <div class="var-wrapper">
+        <p>{{aboutInfo.about}}</p>
+      </div>
+    </div>
+  <div (click)="showInformation(1)" class="wrapper">
+    <li>Хобита и интереси</li>
+    <div class="var-wrapper">
+      <p>{{hobbies.hobbies}}</p>
+    </div>
+  </div>
+  <div (click)="showInformation(2)" class="wrapper">
+    <li>Линк към канал на любим мой ютубър</li>
+    <div class="var-wrapper">
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/@SchaffrillasProductions">{{youtubelink.link}}</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=Fk6SZ2Pjb6SFVHua">{{youtubelink2.link}}</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  <div (click)="showInformation(3)" class="wrapper">
+    <li>Информация за любимия канал</li>
+    <div class="var-wrapper">
+      <p>{{youtubeInfo.info}}</p>
+    </div>
+  </div>
+  <div (click)="showInformation(4)" class="wrapper">
+    <li>Цени за услугите ми</li>
+    <div class="var-wrapper">      
+      <p>{{price.stingPrice}}</p>
+    </div>
+  </div>
+</ul>
